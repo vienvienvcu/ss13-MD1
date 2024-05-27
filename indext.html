@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!------------BOX ICONS--------------->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>navbar reponsive</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h4> NGUYEN VIEN</h4>
+        </div>
+        <div class="nav-menu" id = nav-menu>
+            <ul class="nav-links">
+                <li>
+                    <a href="#">home</a>
+                </li>
+                <li>
+                    <a href="#">about</a>
+                </li>
+                <li>
+                    <a href="#">discord</a>
+                </li>
+                <li>
+                    <a href="#">contact</a>
+                </li>
+            </ul> 
+        </div> 
+        <div class="nav-toogle" id="nav-toggle" onclick="document.querySelector('.nav-menu').classList.toggle('show')">
+            <i class='bx bx-menu'></i>
+        </div>
+        <!-- <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+
+        </div> -->
+    </nav>
+    
+    <script src="main.js"></script>
+</body>
+</html>
